@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<hmtl>
+  <head>
+    <meta charset="utf-8">
+    <title>Week 2 practice </title>
+  </head>
+  <body>
+    <h1>this is an <u>H1 header</u></h1>
+    <h2>this is an H2 header</h2>
+    <h6>this is an <strong>H6 header</strong></h6>
+    <h4>this is an H4 header</h4>
+    <p>hi, my name is <strong>sofija</strong></p>
+      <p>I'm <em>practicing HMTL!</em></p>
+
+    <h1><a href="www.pitchfork.com">sub-directory file</a>
+    <a href="subdirectory/file.html">sub-directory</a></p>
+  </body>
+</html>
