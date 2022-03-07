@@ -56,3 +56,11 @@ hr{
     background-color: #a2b8ab;
     border: none;
     }
+
+
+body {
+  font-family: sans-serif;
+  font-size: 40px;
+  width: 100%;
+  min-height: 100px;
+}
