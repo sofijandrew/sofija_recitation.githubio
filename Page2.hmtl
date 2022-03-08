@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>projects</title>
+    <link rel="stylesheet" href="./css/master.css">
+  </head>
+  <body>
+    <section class="color-orange-theme">
+      <h1>project 2</h1>
+      <p>this is a descriptive paragraph</p>
+    </section>
+  </body>
+</html>
