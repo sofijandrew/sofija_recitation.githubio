@@ -1,6 +1,6 @@
-/*body{
+body{
   font-family: 'Montserrat', sans-serif;
-}*/
+}
 
 @media screen and (max-width: 1900px) {
   body{
@@ -16,15 +16,35 @@
     flex: auto;
     padding: 20px;
   }
+/*header*/
+
+
+header{
+  /*grid-column: 3 / 3;
+  grid-row: 2 / 2;*/
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding: 20px;
+  position: relative;
+}
+a {
+  color: #A2B8AB;
+}
+a:hover{
+  color: #F8A54A;
+}
 
 /*white theme*/
 .color-white-theme{
   background-color: white;
+  background-size: 800px;
 }
 .color-white-theme h1{
   position: relative;
   color: #E7581A;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 800;
   font-size: 100px;
@@ -34,7 +54,6 @@
 .color-white-theme h2{
   position: relative;
   color: #A2B8AB;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -50,52 +69,89 @@ background-color:#E7581A;
 }
 .color-red-theme h1{
   color: #F8A54A;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 800;
   font-size: 100px;
   line-height: 122px;
   text-align: center;
 }
+.color-red-theme p{
+  color: #F8A54A;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  padding: 5px;
+}
 /*orange theme*/
 .color-orange-theme{
   background-color: #F8A54A;
-  
+
 }
 .color-orange-theme h1{
   position: relative;
   color: #E7581A;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 800;
   font-size: 100px;
   line-height: 122px;
+  text-align: center;
+}
+.color-orange-theme h2{
+  position: relative;
+  color: #E7581A;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
   text-align: center;
 }
 .color-orange-theme p{
   position: relative;
   color: white;
-  font-family: Montserrat;
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 44px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 20px;
+}
+.color-orange-theme a{
+  position: relative;
+  color: #E7581A;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 122px;
+  text-align: center;
+}
+
+.color-orange-theme a:hover{
+  color: white;
+}
+.color-orange-theme a:active{
+  color: #53b9ae;
 }
 
 /*blue theme*/
 .color-blue-theme{
   background-color: #A2B8AB;
 }
-.color-blue-theme h1{
+.color-blue-theme a{
   position: relative;
   color: white;
-  font-family: Montserrat;
   font-style: normal;
+  text-decoration: none;
   font-weight: 800;
   font-size: 100px;
   line-height: 122px;
   text-align: center;
 }
+.color-blue-theme a:hover{
+  color: #E7581A;
+}
+
 
 footer {
   grid-column: 1 / 3;
