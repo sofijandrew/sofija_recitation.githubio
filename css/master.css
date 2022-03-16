@@ -108,7 +108,6 @@ background-color:#E7581A;
 
 }
 .color-orange-theme h1{
-  margin: none;
   position: relative;
   padding: 20px;
   color: #E7581A;
@@ -135,6 +134,7 @@ background-color:#E7581A;
   font-size: 24px;
   line-height: 29px;
   padding: 20px;
+  text-align: right;
 }
 li{
   list-style: none;
