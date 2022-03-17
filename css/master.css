@@ -116,10 +116,11 @@ background-color:#E7581A;
   font-size: 100px;
   line-height: 122px;
   text-align: center;
+  margin-block-end: 0;
 }
 .color-orange-theme h2{
   position: relative;
-  color: #E7581A;
+  color: white;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
