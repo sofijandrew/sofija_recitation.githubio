@@ -1,0 +1,43 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
+}
+
+.color-white-theme{
+  background-color: white;
+  background-size: 800px;
+}
+.color-white-theme h1{
+  position: relative;
+  color: #E7581A;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 122px;
+  text-align: center;
+}
+
+
+button{
+  transition: all 1000ms ease-in-out;
+  border: none;
+  font-family: Montserrat;
+  font-size: 40px;
+  background-color: white;
+  color: black;
+}
+
+.was-clicked{
+  color: #E7581A;
+  padding: 20px;
+}
+
+.was-over{
+  color: #A2B8AB;
+  padding: 20px;
+}
+
+.was-down{
+  color: #F8A54A;
+  padding: 20px;
+}
