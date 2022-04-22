@@ -322,6 +322,7 @@ li{
     .color-blue-theme{
       background-color: #A2B8AB;
     }
+
     .color-blue-theme h1{
       text-align: center;
       position: relative;
@@ -345,6 +346,9 @@ li{
     .color-blue-theme a:hover{
       color: #E7581A;
       text-align: center;
+    }
+    .color-blue-theme textarea{
+      font: Montserrat;
     }
 
 
