@@ -1,0 +1,29 @@
+.circle {
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  float:left;
+  margin-right:50px;
+}
+
+#blue-circle {
+  background-color: #A2B8AB;
+}
+
+#orange-circle {
+  background-color: #F8A54A;
+}
+
+#red-circle {
+  background-color: #E7581A;
+}
+
+
+
+
+/*Colors
+red- E7581A
+orange- F8A54A
+blue- A2B8AB
+grey- C4C4C4
+*/
