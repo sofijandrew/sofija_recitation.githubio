@@ -56,6 +56,10 @@ a:hover{
   transition: all 1000ms ease-in-out;
 }
 
+.container {
+  align-items: center;
+}
+
 /*row 1 */
 #blue-circle {
   background-color: #A2B8AB;
@@ -69,7 +73,7 @@ a:hover{
   background-color: #E7581A;
 }
 
-/*row 2 */
+/*row 2
 #blue-circle2 {
   background-color: #B9D1C3;
 }
@@ -79,7 +83,7 @@ a:hover{
 #red-circle2 {
   background-color: #F98959;
 }
-
+*/
 
 
 .was-clicked{
