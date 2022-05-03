@@ -1,11 +1,62 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
+}
+
+/*header*/
+header{
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 20px;
+  position: relative;
+}
+a {
+  color: #A2B8AB;
+  text-decoration: none;
+  position: relative;
+  justify-content: space-around;
+}
+a:hover{
+  color: #F8A54A;
+}
+
+/*white theme*/
+.color-white-theme{
+  background-color: white;
+  background-size: 800px;
+}
+.color-white-theme h1{
+  position: relative;
+  color: #E7581A;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 50px;
+  text-align: center;
+}
+.color-white-theme h2{
+  position: relative;
+  color: #A2B8AB;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+/*circle*/
 .circle {
   width:200px;
   height:200px;
   border-radius: 50%;
-  float:left;
+  float: left;
   margin-right:50px;
+  transition: all 1000ms ease-in-out;
 }
 
+/*row 1 */
 #blue-circle {
   background-color: #A2B8AB;
 }
@@ -18,6 +69,22 @@
   background-color: #E7581A;
 }
 
+/*row 2 */
+#blue-circle2 {
+  background-color: #B9D1C3;
+}
+#orange-circle2 {
+  background-color: #FFBA6D;
+}
+#red-circle2 {
+  background-color: #F98959;
+}
+
+
+
+.was-clicked{
+  padding: 20px;
+}
 
 
 
@@ -27,3 +94,55 @@ orange- F8A54A
 blue- A2B8AB
 grey- C4C4C4
 */
+
+
+@media (max-width: 699px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+    h1{
+      margin-top: 0;
+    }
+    /*header*/
+    header{
+      background: white;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      padding: 5px;
+      position: relative;
+    }
+    a {
+      color: #A2B8AB;
+      text-decoration: none;
+      position: relative;
+      justify-content: space-around;
+    }
+    a:hover{
+      color: #F8A54A;
+    }
+
+    /*white theme*/
+    .color-white-theme{
+      background-color: white;
+      background-size: 800px;
+    }
+    .color-white-theme h1{
+      position: relative;
+      color: #E7581A;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 36px;
+      line-height: 44px;
+      text-align: center;
+    }
+    .color-white-theme h2{
+      position: relative;
+      color: #A2B8AB;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      text-align: center;
+    }
